@@ -1,0 +1,15 @@
+[project]
+name = "Number-Recog"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ChurroC", email = "charanvenkatchandran@gmail.com"},
+]
+dependencies = ["notebook>=7.4.3", "numpy>=2.3.0", "pandas>=2.3.0", "matplotlib>=3.10.3", "idx2numpy>=1.2.3"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
