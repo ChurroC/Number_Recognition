@@ -14,6 +14,8 @@ dependencies = [
     "seaborn>=0.13.2",
     "plotly>=6.1.2",
     "plotly-stubs>=0.1.2",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
 ]
 requires-python = "==3.13.*"
 readme = "README.md"
